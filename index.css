@@ -1,0 +1,153 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+  background-image: url("./assets/svg/pattern.svg");
+  background-repeat: repeat;
+  background-color: rgb(39, 41, 43);
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .profile-img {
+    height: 20%;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .profile-img {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+/** Profile */
+.squares-container {
+  width: 50px;
+  position: absolute;
+  margin: 30px 0 0 30px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.square {
+  width: 25px;
+  height: 25px;
+}
+
+.sq-one {
+  background-color: #ffff00;
+  opacity: 0.8;
+}
+.sq-two {
+  background-color: #0089b6;
+  opacity: 0.6;
+}
+.sq-three {
+  background-color: #bc4077;
+  opacity: 0.7;
+}
+
+.bottom-square-area {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 30px 30px 0;
+}
+
+.squares-container-bottom {
+  width: 50px;
+  margin: 30px 0 0 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-flow: row wrap;
+  transform: rotate(180deg);
+}
+
+/** Main Region */
+.main-region {
+  background-color: rgb(43, 43, 44);
+  border-left: 0.5px solid #ffffff26;
+  border-right: 0.5px solid #ffffff26;
+}
+
+.article {
+  position: relative;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  border: 6px solid white;
+  margin-top: 50px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.role-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.role {
+  margin-top: 0;
+  font-size: 16px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.xing-logo {
+  width: auto;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  font-size: 45px;
+  line-height: 30px;
+  margin: 10px 0 15px 0;
+}
+
+.introduction-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.introduction {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+/** Footer */
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(55, 67, 69);
+  padding: 10px 30px 5px 0;
+  font-size: 12px;
+}
