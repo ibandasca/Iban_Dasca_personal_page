@@ -151,6 +151,8 @@ body {
   margin: 10px 0 15px 0;
 }
 
+
+/** Introduction text */
 .introduction-container {
   width: 80%;
   margin: 0 auto;
@@ -163,6 +165,8 @@ body {
   margin-bottom: 50px;
 }
 
+
+/** Icons */
 .main-icons-region {
   margin: 0 auto;
   display: flex;
@@ -175,9 +179,14 @@ body {
   color: grey;
 }
 
+
 .main-icon > span {
   margin: 15px;
   font-size: 30px;
+}
+
+.main-icon:hover{
+  color:white
 }
 
 /** Footer */
